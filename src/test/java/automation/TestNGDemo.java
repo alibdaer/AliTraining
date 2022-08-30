@@ -19,11 +19,13 @@ public class TestNGDemo {
 
     @Test
     public void userLogin(){
+
         System.out.println(driver2.getCurrentUrl());
     }
 
     @Test
     public void userCanBuy(){
+
         System.out.println(driver2.getTitle());
     }
 
